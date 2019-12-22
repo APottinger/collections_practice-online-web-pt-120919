@@ -1,19 +1,13 @@
 require 'spec_helper'
 
 describe 'collections practice' do
-
+array = [1, 5, 6, 8, 4, 3, 7]
   # Question 1
-  describe '#sort_array_asc' do
-    it 'should return an array sorted in ascending order' do
-      expect(sort_array_asc([25, 7, 1])).to eq([1,7,25])
-    end
-  end
+  array.sort_array_asc
+  
 
   # Question 2
-  describe '#sort_array_desc' do
-    it 'should return an array sorted in descending order' do
-      expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
-    end
+  array.sort_array_desc
   end
 
   # Question 3
