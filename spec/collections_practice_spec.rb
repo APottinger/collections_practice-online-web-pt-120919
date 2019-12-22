@@ -11,11 +11,10 @@ array = [1, 5, 6, 8, 4, 3, 7]
   end
 
   # Question 3
-  describe '#sort_array_char_count' do
-    it 'should return an array in ascending order sorted by the number of characters in the string' do
-      expect(sort_array_char_count(["dogs", "cat", "Horses"])).to eq(["cat", "dogs", "Horses"])
-    end
-  end
+  array = ["sunny", "cloudy", "raining", "snowing"]
+  array.sort_array_char_count
+  
+  array.swap_elements_from_to(["a", "b", "c"], 0,2)
 
   # Question 4
   describe '#swap_elements' do
